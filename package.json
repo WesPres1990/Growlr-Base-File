@@ -1,0 +1,28 @@
+{
+  "name": "growlr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesPres1990/Growlr.git"
+  },
+  "keywords": [
+    "dogs",
+    "people",
+    "compatibility"
+  ],
+  "author": "Wesley Hutchins, Jonathan Brown, Cynthia Sidlauskas, Nathan Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesPres1990/Growlr/issues"
+  },
+  "homepage": "https://github.com/WesPres1990/Growlr#readme",
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
+}
