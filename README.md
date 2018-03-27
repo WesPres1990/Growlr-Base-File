@@ -1,9 +1,9 @@
 # Growlr
 =======
-##Project source can be downloaded from <https://github.com/WesPres1990/Growlr>
+Project source can be downloaded from <https://github.com/WesPres1990/Growlr>
 ----
 
-###Author & Contibutor List
+Author & Contibutor List
 ------------
 Cynthia Sidlauskas
 
@@ -15,13 +15,13 @@ Nathan Young
 
 ------------
 
-###About:
+About:
 ---
 Growlr is a survay based dog to future possible owner matching application. This app is tied to local dog shelters in hopes to match you with you new best friend and give these dogs a new home.
 
 ----------
 
-###Directions:
+Directions:
 ---
 
 * Select "Human Looking For Dog" or "Dog Looking For Human"
