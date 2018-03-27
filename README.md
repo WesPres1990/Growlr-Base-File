@@ -1,5 +1,5 @@
 # Growlr
-=======
+
 Project source can be downloaded from <https://github.com/WesPres1990/Growlr>
 ----
 
