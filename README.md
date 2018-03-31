@@ -4,11 +4,11 @@ An application which helps people to find dogs as pets and dogs to find people a
 
 ## How to Use
 
-User opens application via the Heroku [link]( ) to the homepage.
+User opens application via the Heroku [link](https://warm-sierra-75928.herokuapp.com/) to the homepage.
 
-If the user is a person, he or she clicks the button "Human Looking For Dog". A form opens up, where they provide their basic information (name, address, email, age, etc), and following this is a survey where they provide answers to questions and statements using drop-down choices. Upon completing the survey, the user clicks "Submit" and is shown the dog with whom he or she has the most compatibility based on the answers which were given.
+If the user is a person, he or she clicks the button "Human Looking For Dog". A form opens up, where they provide their basic information (name, address, email, age, etc) along with a photograph of themselves, and following this is a survey where they provide answers to questions and statements using drop-down choices. Upon completing the survey, the user clicks "Submit" and is shown the dog with whom he or she has the most compatibility based on the answers which were given.
 
-If the user is a person or company (animal shelter, PetSmart, etc.) acting on behalf of a dog - known as a "Sponsor" - he or she clicks the button "Dog Looking For Human". In the following form page, the sponsor provides the dog's basic information (name, breed, age, etc) as well as their own information (peronal or company name, address, phone number, etc.). Following this is a survey where they provide answers to questions and statements about the dog using drop-down choices. Upon completing the survey, the user clicks "Submit" and is shown the person with whom the dog has the most compatibility based on the answers which were given.
+If the user is a person or company (animal shelter, PetSmart, etc.) acting on behalf of a dog - known as a "Sponsor" - he or she clicks the button "Dog Looking For Human". In the following form page, the sponsor provides the dog's basic information (name, breed, age, etc) as well as their own information (peronal or company name, address, phone number, etc.) and a photo of the dog. Following this is a survey where they provide answers to questions and statements about the dog using drop-down choices. Upon completing the survey, the user clicks "Submit" and is shown the person with whom the dog has the most compatibility based on the answers which were given.
 
 App also contains a link to the JSON data, which contains an array of people ("friends") and their scores, which are compared against data from the user to determine compatibility.
 
@@ -26,29 +26,28 @@ npm [mysql](https://www.npmjs.com/package/mysql)
 
 ### Technologies Used
 
-HTML5, Javascript, Node.js, MySQL, NPM, Handlebars
+HTML5, CSS4, Boostrap, Javascript, Node.js, MySQL, NPM, Handlebars, MVC, API Routes
 
 Text Editor - VS Studio
 
 
 ## Preview
 
-### Product Listing and Selection
+### Homepage
 - - - -
-<img src="screenshots/Bamazon1.PNG"/>
+<img src="screenshots/Growlr1.PNG"/>
 
-### Selecting the Quantity
+### Person Information Page
 - - - -
-<img src="screenshots/Bamazon2.PNG"/>
+<img src="screenshots/Growlr2.PNG"/>
 
-### Chosen Product and Further Shopping
+### Person Survey
 - - - -
-<img src="screenshots/Bamazon3.PNG"/>
+<img src="screenshots/Growlr3.PNG"/>
 
-### End of Transaction and App Closed
+### Dog Information Page
 - - - -
-<img src="screenshots/Bamazon4.PNG"/>
-
+<img src="screenshots/Growlr4.PNG"/>
 
 ## Contributing
 
