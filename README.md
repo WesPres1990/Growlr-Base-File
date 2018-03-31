@@ -35,19 +35,19 @@ Text Editor - VS Studio
 
 ### Homepage
 - - - -
-<img src="screenshots/Growlr1.PNG"/>
+<img src="screenshots/Growlr-1.PNG"/>
 
 ### Person Information Page
 - - - -
-<img src="screenshots/Growlr2.PNG"/>
+<img src="screenshots/Growlr-2.PNG"/>
 
 ### Person Survey
 - - - -
-<img src="screenshots/Growlr3.PNG"/>
+<img src="screenshots/Growlr-3.PNG"/>
 
 ### Dog Information Page
 - - - -
-<img src="screenshots/Growlr4.PNG"/>
+<img src="screenshots/Growlr-4.PNG"/>
 
 ## Contributing
 
