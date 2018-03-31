@@ -1,69 +1,70 @@
 # Growlr
 
-Project source can be downloaded from <https://github.com/WesPres1990/Growlr>
-----
+An application which helps people to find dogs as pets and dogs to find people as owners based on measures of compatibility via a survey.
 
-Author & Contibutor List
-------------
-Cynthia Sidlauskas
+## How to Use
 
-Wesley Lawrence Prescott Hutchins
+User opens application via the Heroku [link]( ) to the homepage.
 
-Jonathan Brown
+If the user is a person, he or she clicks the button "Human Looking For Dog". A form opens up, where they provide their basic information (name, address, email, age, etc), and following this is a survey where they provide answers to questions and statements using drop-down choices. Upon completing the survey, the user clicks "Submit" and is shown the dog with whom he or she has the most compatibility based on the answers which were given.
 
-Nathan Young
+If the user is a person or company (animal shelter, PetSmart, etc.) acting on behalf of a dog - known as a "Sponsor" - he or she clicks the button "Dog Looking For Human". In the following form page, the sponsor provides the dog's basic information (name, breed, age, etc) as well as their own information (peronal or company name, address, phone number, etc.). Following this is a survey where they provide answers to questions and statements about the dog using drop-down choices. Upon completing the survey, the user clicks "Submit" and is shown the person with whom the dog has the most compatibility based on the answers which were given.
 
-------------
-
-About:
----
-Growlr is a survay based dog to future possible owner matching application. This app is tied to local dog shelters in hopes to match you with you new best friend and give these dogs a new home.
-
-----------
-
-Directions:
----
-
-* Select "Human Looking For Dog" or "Dog Looking For Human"
-
-* Fill in personal Information Name, age, address, etc./ If posting dog fill dog and sponsor information.
-
-* Answer survey questions and submit
-
-* Get best match and set up possible meet
+App also contains a link to the JSON data, which contains an array of people ("friends") and their scores, which are compared against data from the user to determine compatibility.
 
 
+### Prerequisites
 
-*File List*
----------
-```
-.:
-config
+npm [express](https://www.npmjs.com/package/express)
 
-controllers
+npm [path](https://www.npmjs.com/package/path)
 
-db
+npm [bodyParser](https://www.npmjs.com/package/body-parser)
 
-migrations
+npm [mysql](https://www.npmjs.com/package/mysql)
 
-models
 
-public/assets
+### Technologies Used
 
-views
+HTML5, Javascript, Node.js, MySQL, NPM, Handlebars
 
-.gitignore
+Text Editor - VS Studio
 
-READEME.md
 
-package-lock.json
+## Preview
 
-package.json
+### Product Listing and Selection
+- - - -
+<img src="screenshots/Bamazon1.PNG"/>
 
-server.js
+### Selecting the Quantity
+- - - -
+<img src="screenshots/Bamazon2.PNG"/>
 
-wireframe.pdf
-```
+### Chosen Product and Further Shopping
+- - - -
+<img src="screenshots/Bamazon3.PNG"/>
 
-*Screenshots*
--------
+### End of Transaction and App Closed
+- - - -
+<img src="screenshots/Bamazon4.PNG"/>
+
+
+## Contributing
+
+Please feel free to branch off with tweaks and making a repo; open to suggestions!
+
+
+## Future Development
+
+* Creating a proper table.
+* Allow user to add multiple items to a single transaction.
+* Creating similar and connected apps for managers and supervisors.
+
+
+## Authors
+
+* **Wesley Hutchins** - [Github](https://github.com/WesPres1990)
+* **Johnathan Brown** - [GitHub](https://github.com/JonathanBrownCFA)
+* **Cynthia Sidlaukas** - [GitHub](https://github.com/cynthiasidlauskas)
+* **Nathan Young** - [GitHub](https://github.com/21ghosts)
